@@ -1,60 +1,59 @@
-/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace; /* Vintage-looking font */
-    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Rustic background */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #F4E3CF;
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Container with a semi-transparent effect */
 .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Paper-like transparency */
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
+  text-align: center;
+  padding: 2rem;
 }
 
-/* Header Styling */
 h1 {
-    font-size: 2rem;
-    color: #5e463a; /* Rustic brown */
-    margin-bottom: 20px;
+  color: #8B4513;
+  margin-bottom: 1rem;
 }
 
-/* Slang Display Box */
-.slang-box {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #6b4226; /* Earthy brown */
-    margin: 20px 0;
-    padding: 15px;
-    border: 2px solid #8d6e63; /* Soft brown border */
-    border-radius: 10px;
-    background-color: rgba(255, 245, 235, 0.8); /* Slight vintage tint */
+.card {
+  background-color: #FFF3E0;
+  border: 2px solid #8B4513;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Random Button */
-.random-btn {
-    background-color: #b5651d; /* Dark rustic orange */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s;
+h2 {
+  color: #C75146;
+  margin-bottom: 0.5rem;
 }
 
-.random-btn:hover {
-    background-color: #8d4b1e; /* Darker orange on hover */
+p {
+  color: #4B3621;
 }
+
+button {
+  background-color: #C75146;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8B4513;
+}
+
+
