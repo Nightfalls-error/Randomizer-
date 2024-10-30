@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: 'Courier New', Courier, monospace; /* Vintage-looking font */
-    background-image: url='vintage-paper.jpg'; /* Rustic background */
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Rustic background */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
