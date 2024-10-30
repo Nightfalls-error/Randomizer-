@@ -1,16 +1,11 @@
 /* General styles */
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #F4E3CF;
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
